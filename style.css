@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+h1 {
+    color: red;
+}
+.menu {
+    margin: 20px;
+}
+
+.menu a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.menu a:hover {
+    color: red;
+}
+.movies {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.movies img {
+    width: 200px;
+    height: 280px;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid red;
+}
+.movies img:hover {
+    transform: scale(1.05);
+}
+.summary {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+}
+.form {
+    width: 300px;
+    margin: auto;
+}
+input, textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
